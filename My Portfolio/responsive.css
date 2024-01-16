@@ -1,0 +1,1098 @@
+@media (min-width: 1110px) and (max-width: 1230px) {
+  .home-container {
+    padding: 5em 5em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+  }
+  .about-section {
+    padding: 4em 7.5em;
+  }
+  .sectionDiv {
+    padding: 4em 8em;
+  }
+  .skills,
+  .tools {
+    gap: 1em;
+  }
+  .projectMain {
+    padding: 2em 4em 5em;
+  }
+  .link-logo {
+    margin-top: 3em;
+  }
+  .gitStatus {
+    border: 1px solid;
+    padding: 0em 4em 4em;
+    margin-top: 2em;
+  }
+  .messageMefast {
+    padding: 3em 8em;
+  }
+  .copyright {
+    padding: 0em 5em;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1109px) {
+  #nav-ul .nav-li {
+    margin: 0px 1rem;
+  }
+  .home-container {
+    padding: 5em 4em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+  }
+  .about-section {
+    padding: 4em 2.2em;
+  }
+  .sectionDiv {
+    padding: 4em 4em;
+  }
+  .skills,
+  .tools {
+    gap: 1em;
+  }
+  .skills div img,
+  .tools div img {
+    width: 4em;
+  }
+  .projectMain {
+    padding: 2em 2em 5em;
+  }
+  .link-logo {
+    margin-top: 5.5em;
+  }
+  .gitStatus {
+    border: 1px solid;
+    padding: 0em 2.5em 4em;
+    margin-top: 2em;
+  }
+  .gitPicContainer1 {
+    gap: 2em;
+  }
+  .messageMefast {
+    padding: 3em 4em;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 899px) {
+  header img {
+    max-height: 3rem;
+    border-radius: 50%;
+  }
+
+  #nav-ul .nav-li {
+    margin: 0px 0.8rem;
+  }
+  #nav-ul .nav-li a {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .day-night-btn {
+    width: 3em;
+    height: 1.5em;
+    border-radius: 10em;
+    padding: 0 0.3em;
+  }
+
+  .btn_indicator {
+    width: 1em;
+    height: 1em;
+  }
+
+  .resume {
+    font-size: 1rem;
+  }
+
+  .home-container {
+    padding: 5em 0.8em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+  }
+  .about-section {
+    padding: 4em 1em;
+  }
+  #image_and_intro {
+    gap: 2em;
+  }
+  .about-section {
+    padding: 4em 2.2em;
+  }
+  .sectionDiv {
+    padding: 4em 3em;
+  }
+  .skills,
+  .tools {
+    gap: 0.5em;
+  }
+  .skills div img,
+  .tools div img {
+    width: 4em;
+  }
+
+  .projectMain {
+    padding: 2em 4em 5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    margin-top: 4em;
+  }
+  .project1 {
+    height: 26em;
+  }
+  .link-logo {
+    margin-top: 1.8em;
+  }
+  .gitStatus {
+    padding: 0em 3em 4em;
+    margin-top: 2em;
+  }
+  .gitPicContainer1 {
+    gap: 2em;
+  }
+  .gitPicContainer2 > div img {
+    width: 25em;
+  }
+  .messageMefast {
+    padding: 3em 3em;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 781px) {
+  header img {
+    max-height: 2.7rem;
+    border-radius: 50%;
+  }
+  header {
+    width: 100%;
+    padding: 0.7rem 0.9rem;
+  }
+
+  #nav-ul .nav-li {
+    margin: 0px 1rem;
+  }
+  #nav-ul .nav-li a {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .day-night-btn {
+    background-color: #fff;
+    width: 2.5em;
+    height: 1.3em;
+    border-radius: 10em;
+    padding: 0 0.1em;
+  }
+
+  .btn_indicator {
+    width: 0.8em;
+    height: 0.8em;
+  }
+
+  .resume {
+    font-size: 0.9rem;
+  }
+
+  .home-container {
+    padding: 3em 0.2em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.1em;
+  }
+  .about-section {
+    padding: 4em 0.5em;
+  }
+  #image_and_intro {
+    gap: 2em;
+  }
+
+  .poster {
+    width: 1300px;
+    height: 270px;
+    border-radius: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .poster-image {
+    max-height: 100%;
+    border-radius: 5%;
+  }
+  .sectionDiv {
+    padding: 0em 4em;
+    margin-top: 1em;
+  }
+  .skills,
+  .tools {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skills div img,
+  .tools div img {
+    width: 5em;
+  }
+  .projectMain {
+    padding: 2em 1em 5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    margin-top: 4em;
+  }
+  .project1 {
+    height: 27.5em;
+  }
+  .project1-about {
+    font-size: 1.2em;
+    height: 9em;
+  }
+  .link-logo {
+    margin-top: 1.2em;
+  }
+  .gitStatus {
+    padding: 0em 1em 4em;
+    margin-top: 2em;
+  }
+  .gitPicContainer1 {
+    gap: 1em;
+  }
+  .gitPicContainer2 {
+    margin-top: 0.5em;
+  }
+  .gitPicContainer2 > div img {
+    width: 22em;
+  }
+  .messageMefast {
+    padding: 2em 1em;
+  }
+  .contact_input {
+    gap: 1em;
+  }
+  #contact-details2 > div > i {
+    font-size: 1.5em;
+  }
+  #contact-details2 > div > p {
+    font-size: 1.2em;
+  }
+  .copyright {
+    padding: 0em 3em;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 601px) {
+  /* #menu-icon{
+        display: block;
+    } */
+
+  header img {
+    max-height: 2.6rem;
+    border-radius: 50%;
+  }
+  header {
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+  }
+
+  #nav-ul .nav-li {
+    margin: 0px 0.5rem;
+    /* display: none; */
+  }
+
+  #nav-ul .nav-li a {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .day-night-btn {
+    background-color: #fff;
+    width: 2.5em;
+    height: 1.2em;
+    border-radius: 10em;
+    padding: 0 0.2em;
+  }
+
+  .btn_indicator {
+    width: 0.8em;
+    height: 0.8em;
+  }
+  .btn_icon {
+    color: var(--light-icon-color);
+    font-size: 0.6em;
+  }
+  .resume {
+    font-size: 0.7rem;
+  }
+
+  .home-container {
+    padding: 3em 4.2em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    gap: 1em;
+  }
+
+  .my-image {
+    border: 4px solid #12f2ff;
+    width: 18.5em;
+    height: 20em;
+    border-radius: 50%;
+  }
+  .my-image img {
+    border-radius: 50%;
+    width: 18em;
+    height: 19.5em;
+  }
+  .about-section {
+    padding: 4em 0.5em;
+  }
+  #image_and_intro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3em;
+    align-items: center;
+    margin-top: 2em;
+  }
+  .poster {
+    height: 270px;
+    border-radius: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .poster-image {
+    max-height: 100%;
+    border-radius: 5%;
+  }
+  .about-me {
+    text-align: center;
+    padding: 0em 2em;
+  }
+
+  .sectionDiv {
+    padding: 0em 4em;
+    margin-top: 1em;
+  }
+  .skills,
+  .tools {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skills div img,
+  .tools div img {
+    width: 5em;
+  }
+  .projectMain {
+    padding: 2em 2em 5em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3em;
+    margin-top: 4em;
+  }
+  .project1 {
+    height: 28.5em;
+  }
+  .project1-about {
+    font-size: 1.2em;
+    height: 5em;
+  }
+  .gitStatus {
+    padding: 0em 1em 4em;
+    margin-top: 2em;
+  }
+  .gitPicContainer1 {
+    gap: 1.5em;
+    flex-wrap: wrap;
+  }
+  .gitPicContainer2 {
+    margin-top: 1.5em;
+  }
+  .gitPicContainer2 > div img {
+    width: 29em;
+  }
+  .messageMefast {
+    padding: 2em 0.6em;
+  }
+  .contact_input {
+    gap: 1em;
+  }
+  #contact-details2 > div > i {
+    font-size: 1.5em;
+  }
+  #contact-details2 > div > p {
+    font-size: 1.2em;
+  }
+  .copyright {
+    padding: 0em 2em;
+  }
+  .copyright > div {
+    font-size: 0.9em;
+  }
+}
+
+/* optonal */
+@media (min-width: 482px) and (max-width: 563px) {
+  .project1:nth-child(2) {
+    height: 26.5em;
+  }
+  .project1:nth-child(3) {
+    height: 26.5em;
+  }
+  .gitPicContainer2 > div img {
+    width: 30em;
+  }
+  .messageMefast {
+    padding: 2em 3em;
+  }
+  .contact_input {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3em;
+    padding: 0em 0em 1em;
+  }
+  .copyright {
+    padding: 0em 1.8em;
+  }
+  .copyright > div {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 481px) {
+  #menu-icon {
+    display: block;
+    font-size: 1.5em;
+    background-color: var(--hover-color);
+    color: #fff;
+    border-radius: 5%;
+    color: var(--bg-color);
+  }
+
+  #nav-ul {
+    display: flex;
+    position: absolute;
+    top: -1000px;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    background: var(--bg-color);
+    text-align: left;
+    padding: 0 5%;
+    transition: all 0.45s ease;
+  }
+  #nav-ul a {
+    display: block;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+  #nav-ul.open {
+    top: 100%;
+  }
+  #nav-ul.open a {
+    font-size: 1.2em;
+  }
+
+  header img {
+    max-height: 2.7rem;
+    border-radius: 50%;
+  }
+  header {
+    width: 100%;
+    padding: 0.3rem 1rem;
+  }
+  .day-night-btn {
+    background-color: #fff;
+    width: 3.5em;
+    height: 1.7em;
+    border-radius: 10em;
+    padding: 0 0.6em;
+  }
+
+  .btn_indicator {
+    width: 1em;
+    height: 1em;
+  }
+  .btn_icon {
+    color: var(--light-icon-color);
+    font-size: 0.6em;
+  }
+  .resume {
+    font-size: 1rem;
+  }
+
+  .home-container {
+    padding: 3em 2em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    gap: 1em;
+  }
+
+  .my-image {
+    border: 4px solid #12f2ff;
+    width: 17em;
+    height: 20em;
+    border-radius: 50%;
+  }
+  .my-image img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 16.5em;
+    height: 19.5em;
+  }
+  .about-section {
+    padding: 4em 0.5em;
+  }
+  #image_and_intro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    margin-top: 1em;
+  }
+  .poster {
+    height: 270px;
+    border-radius: 5%;
+  }
+  .poster-image {
+    max-height: 100%;
+  }
+  .introduce {
+    font-size: 1.2em;
+  }
+  .introduce + h3 {
+    font-size: 1.1em;
+  }
+  .details-intro {
+    font-size: 1.1em;
+  }
+  .place {
+    font-size: 1em;
+  }
+  .linkdineBtn {
+    font-size: 1.2em;
+    padding: 0.2em 1.1em;
+  }
+  .bx-user {
+    font-size: 1.5em;
+  }
+  .aboutMe {
+    font-size: 1.5em;
+  }
+  .sectionDiv {
+    padding: 0em 4em;
+    margin-top: 1em;
+  }
+  .skills,
+  .tools {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+  .skills div img,
+  .tools div img {
+    width: 3em;
+  }
+  .skills div span,
+  .tools div span {
+    font-size: 1em;
+  }
+  .projectMain {
+    padding: 2em 2em 5em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5em;
+    margin-top: 4em;
+  }
+  .project1 {
+    height: 27.5em;
+  }
+  .project1-about {
+    font-size: 1.2em;
+    height: 7.5em;
+  }
+  .gitStatus {
+    padding: 0em 1em 4em;
+    margin-top: 2em;
+  }
+  .gitPicContainer1 {
+    gap: 0.5em;
+    flex-wrap: wrap;
+  }
+  .gitPicContainer2 {
+    margin-top: 1em;
+  }
+  .gitPicContainer2 > div img {
+    width: 24.8em;
+  }
+  .messageMefast {
+    padding: 2em 1em;
+  }
+  .contact_input {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3em;
+    padding: 0em 0em 1em;
+  }
+  #contact-details2 > div > i {
+    font-size: 1.2em;
+  }
+  #contact-details2 > div > p {
+    font-size: 1.4em;
+  }
+  .copyright {
+    padding: 0em 1.7em;
+  }
+  .copyright > div {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 408px) {
+  .home-container {
+    padding: 3em 2em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    gap: 0.1em;
+  }
+  .my-image {
+    border: 4px solid #12f2ff;
+    width: 15em;
+    height: 17em;
+    border-radius: 50%;
+  }
+  .my-image img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 14.6em;
+    height: 16.5em;
+  }
+  .myName {
+    font-size: 1.6em;
+    margin-top: 1em;
+  }
+  .contact-details {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 0.5em;
+    margin: 0.7em 0em;
+  }
+
+  .sectionDiv {
+    padding: 0em 4em;
+    margin-top: 1em;
+  }
+  .skills,
+  .tools {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .skills div img,
+  .tools div img {
+    width: 3em;
+  }
+  .skills div span,
+  .tools div span {
+    font-size: 1em;
+  }
+  .bx-laptop {
+    font-size: 1.3em;
+  }
+  .SkillTextContainer p,
+  .toolsTextContainer p {
+    font-size: 0.9em;
+  }
+
+  .projectMain {
+    padding: 2em 1em 5em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+    margin-top: 1em;
+  }
+  .project1 {
+    height: 27.5em;
+  }
+  .project1-about {
+    font-size: 1.2em;
+    height: 8.5em;
+  }
+  .gitStatus {
+    padding: 0em 1em 4em;
+    margin-top: 1em;
+  }
+  .gitPicContainer1 {
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+  .gitPicContainer1 > div {
+    height: 9em;
+  }
+  .gitPicContainer2 {
+    margin-top: 1em;
+  }
+  .gitPicContainer2 > div img {
+    width: 17.3em;
+  }
+  .copyright {
+    padding: 0em 1em;
+  }
+  .copyright > div {
+    font-size: 0.7em;
+  }
+}
+@media (min-width: 300px) and (max-width: 340px) {
+  .my-image {
+    border: 4px solid #12f2ff;
+    width: 15em;
+    height: 17em;
+    border-radius: 50%;
+  }
+  .my-image img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 14.6em;
+    height: 16.5em;
+  }
+  .myName {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  .change-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .resume-hire-box {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: fit-content;
+    gap: 1em;
+  }
+  .resume-hire-box .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 9.5em;
+    height: 100%;
+    font-size: 1rem;
+    margin-top: 2em;
+  }
+  .btn:nth-child(2) {
+    width: 6em;
+    background: var(--bg-color);
+    color: var(--hover-color);
+  }
+  .sectionDiv {
+    margin-top: 2em;
+  }
+  .projectMain {
+    margin-top: 1em;
+  }
+  .link-logo {
+    margin-top: 3.2em;
+  }
+  .gitStatus {
+    padding: 0em 1em 4em;
+    margin-top: 1em;
+  }
+  .gitPicContainer1 {
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+  .gitPicContainer1 > div {
+    height: 9em;
+  }
+  .gitPicContainer2 {
+    margin-top: 1em;
+  }
+  .gitPicContainer2 > div img {
+    width: 17.3em;
+  }
+  .messageMefast {
+    padding: 2em 1em;
+  }
+  .contact_input {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3em;
+    padding: 0em 0em 1em;
+  }
+  #contact-details2 > div > i {
+    font-size: 1.2em;
+  }
+  #contact-details2 > div > p {
+    font-size: 1.3em;
+  }
+  .copyright {
+    padding: 0em 1em;
+  }
+  .copyright > div {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 301px) {
+  #menu-icon {
+    display: block;
+    font-size: 1.5em;
+    background-color: var(--hover-color);
+    color: var(--bg-color);
+    border-radius: 5%;
+  }
+
+  #nav-ul {
+    display: flex;
+    position: absolute;
+    top: -1000px;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    background: var(--bg-color);
+    text-align: left;
+    padding: 0 5%;
+    transition: all 0.45s ease;
+  }
+  #nav-ul a {
+    display: block;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+  #nav-ul.open {
+    top: 100%;
+  }
+  #nav-ul.open a {
+    font-size: 1.2em;
+  }
+
+  header img {
+    max-height: 2.7rem;
+    border-radius: 50%;
+  }
+  header {
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .day-night-btn {
+    background-color: #fff;
+    width: 3.5em;
+    height: 1.7em;
+    border-radius: 10em;
+    padding: 0 0.6em;
+  }
+
+  .btn_indicator {
+    width: 1em;
+    height: 1em;
+  }
+  .btn_icon {
+    color: var(--light-icon-color);
+    font-size: 0.6em;
+  }
+  .resume {
+    font-size: 1rem;
+    /* display: none; */
+  }
+  .home-container {
+    padding: 3em 1em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    gap: 0.1em;
+  }
+
+  .contact-details {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 0.9em;
+    margin: 0.7em 0em;
+  }
+
+  .myName {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  .change-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .mySmallDiscription {
+    font-size: 1em;
+  }
+
+  .contact-details h4 {
+    font-size: 1.1em;
+    font-weight: 900;
+  }
+  .contact-details p {
+    font-size: 1.1em;
+  }
+  .resume-hire-box {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: fit-content;
+    gap: 1em;
+  }
+
+  .resume-hire-box .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 9.5em;
+    height: 100%;
+    font-size: 1.1rem;
+    margin-top: 2em;
+  }
+
+  .btn:nth-child(2) {
+    width: 6em;
+    background: var(--bg-color);
+    color: var(--hover-color);
+  }
+
+  .my-image {
+    border: 4px solid #12f2ff;
+    width: 15.5em;
+    height: 18.5em;
+    border-radius: 50%;
+  }
+  .my-image img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 15em;
+    height: 18em;
+  }
+
+  .about-section {
+    padding: 4em 0.5em;
+  }
+  #image_and_intro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    margin-top: 1em;
+  }
+  .poster {
+    height: 270px;
+    border-radius: 5%;
+  }
+  .poster-image {
+    max-height: 100%;
+  }
+  .introduce {
+    font-size: 1.2em;
+  }
+  .introduce + h3 {
+    font-size: 1.1em;
+  }
+  .details-intro {
+    font-size: 1.1em;
+  }
+  .place {
+    font-size: 1em;
+  }
+  .linkdineBtn {
+    font-size: 1.2em;
+    padding: 0.2em 1.1em;
+  }
+  .bx-user {
+    font-size: 1.5em;
+  }
+  .aboutMe {
+    font-size: 1.5em;
+  }
+  .sectionDiv {
+    padding: 0em 2em;
+    margin-top: 1em;
+  }
+  .skills,
+  .tools {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .skills div img,
+  .tools div img {
+    width: 3em;
+  }
+  .skills div span,
+  .tools div span {
+    font-size: 1em;
+  }
+  .bx-laptop {
+    font-size: 1.3em;
+  }
+  .SkillTextContainer p,
+  .toolsTextContainer p {
+    font-size: 0.9em;
+  }
+
+  .projectMain {
+    padding: 2em 0.2em 5em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+    margin-top: 2em;
+  }
+  .project1 {
+    height: 24em;
+  }
+  .project1-about {
+    font-size: 1em;
+    height: 8.5em;
+  }
+  .link-logo {
+    margin-top: 2em;
+  }
+  .gitStatus {
+    padding: 0em 1em 4em;
+    margin-top: 1em;
+  }
+  .gitPicContainer1 {
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+  .gitPicContainer1 > div {
+    height: 7em;
+  }
+  .gitPicContainer2 {
+    margin-top: 1em;
+  }
+  .gitPicContainer2 > div img {
+    width: 15.5em;
+  }
+  .messageMefast {
+    padding: 2em 0.6em;
+  }
+  .c_m > h2 {
+    font-size: 1.5em;
+  }
+  .contact_input {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3em;
+    padding: 0em 0em 1em;
+  }
+  #contact-details2 > div > i {
+    font-size: 1.2em;
+  }
+  #contact-details2 > div > p {
+    font-size: 1.1em;
+  }
+  .copyright {
+    padding: 0em 0.8em;
+  }
+  .copyright > div {
+    font-size: 0.5em;
+  }
+}
