@@ -3,7 +3,7 @@
     padding: 5em 5em;
     display: flex;
     justify-content: space-evenly;
-    gap: 10em;
+    gap: 5em;
   }
   .about-section {
     padding: 4em 7.5em;
@@ -22,7 +22,6 @@
     margin-top: 3em;
   }
   .gitStatus {
-    border: 1px solid;
     padding: 0em 4em 4em;
     margin-top: 2em;
   }
@@ -42,7 +41,7 @@
     padding: 5em 4em;
     display: flex;
     justify-content: space-evenly;
-    gap: 10em;
+    gap: 2em;
   }
   .about-section {
     padding: 4em 2.2em;
@@ -110,7 +109,17 @@
     padding: 5em 0.8em;
     display: flex;
     justify-content: space-evenly;
-    gap: 10em;
+    gap: 2em;
+  }
+  .resume-hire-box .btn {
+    width: 11em;
+    font-size: .8rem;
+    margin-top: 2em;
+    height: 2.5em;
+  }
+
+  .my-image>img{
+    width: 20em;
   }
   .about-section {
     padding: 4em 1em;
@@ -202,6 +211,16 @@
     justify-content: space-evenly;
     gap: 0.1em;
   }
+  .resume-hire-box .btn {
+    width: 10em;
+    font-size: .8rem;
+    margin-top: 2em;
+    height: 2.5em;
+  }
+
+  .my-image>img{
+    width: 15em;
+  }
   .about-section {
     padding: 4em 0.5em;
   }
@@ -279,10 +298,6 @@
 }
 
 @media (min-width: 480px) and (max-width: 601px) {
-  /* #menu-icon{
-        display: block;
-    } */
-
   header img {
     max-height: 2.6rem;
     border-radius: 50%;
@@ -294,7 +309,6 @@
 
   #nav-ul .nav-li {
     margin: 0px 0.5rem;
-    /* display: none; */
   }
 
   #nav-ul .nav-li a {
@@ -321,25 +335,26 @@
   .resume {
     font-size: 0.7rem;
   }
-
+#home-container1{
+  display: flex;
+  flex-wrap: wrap;
+}
   .home-container {
-    padding: 3em 4.2em;
+    padding: 3em 4.2em 0em;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
     gap: 1em;
   }
-
-  .my-image {
-    border: 4px solid #12f2ff;
-    width: 18.5em;
-    height: 20em;
-    border-radius: 50%;
+  .resume-hire-box .btn {
+    width: 10em;
+    font-size: .8rem;
+    margin-top: 2em;
+    height: 2.5em;
   }
+
   .my-image img {
-    border-radius: 50%;
-    width: 18em;
-    height: 19.5em;
+    width: 22em;
   }
   .about-section {
     padding: 4em 0.5em;
@@ -519,6 +534,21 @@
     font-size: 1rem;
   }
 
+  #home-container1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .resume-hire-box .btn {
+      width: 10em;
+      font-size: .8rem;
+      margin-top: 2em;
+      height: 2.5em;
+    }
+  
+    .my-image img {
+      width: 22em;
+    }
+
   .home-container {
     padding: 3em 2em;
     display: flex;
@@ -527,18 +557,6 @@
     gap: 1em;
   }
 
-  .my-image {
-    border: 4px solid #12f2ff;
-    width: 17em;
-    height: 20em;
-    border-radius: 50%;
-  }
-  .my-image img {
-    overflow: hidden;
-    border-radius: 50%;
-    width: 16.5em;
-    height: 19.5em;
-  }
   .about-section {
     padding: 4em 0.5em;
   }
@@ -657,27 +675,34 @@
     flex-wrap: wrap-reverse;
     gap: 0.1em;
   }
-  .my-image {
-    border: 4px solid #12f2ff;
-    width: 15em;
-    height: 17em;
-    border-radius: 50%;
+
+  #home-container1{
+    display: flex;
+    flex-wrap: wrap;
   }
-  .my-image img {
-    overflow: hidden;
-    border-radius: 50%;
-    width: 14.6em;
-    height: 16.5em;
-  }
+    .home-container {
+      padding: 3em 4.2em 0em;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap-reverse;
+      gap: 1em;
+    }
+    .resume-hire-box .btn {
+      width: 10em;
+      font-size: .8rem;
+      margin-top: 2em;
+      height: 2.5em;
+    }
+  
+    .my-image img {
+      width: 20em;
+    }
   .myName {
     font-size: 1.6em;
     margin-top: 1em;
   }
   .contact-details {
     width: fit-content;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 0.5em;
     margin: 0.7em 0em;
   }
 
@@ -745,18 +770,26 @@
   }
 }
 @media (min-width: 300px) and (max-width: 340px) {
-  .my-image {
-    border: 4px solid #12f2ff;
-    width: 15em;
-    height: 17em;
-    border-radius: 50%;
+  #home-container1{
+    display: flex;
+    flex-wrap: wrap;
   }
-  .my-image img {
-    overflow: hidden;
-    border-radius: 50%;
-    width: 14.6em;
-    height: 16.5em;
-  }
+    .home-container {
+      padding: 3em 4.2em 0em;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap-reverse;
+      gap: 1em;
+    }
+    .resume-hire-box .btn {
+      width: 10em;
+      font-size: .8rem;
+      margin-top: 2em;
+      height: 2.5em;
+    }
+    .my-image img {
+      width: 14em;
+    }
   .myName {
     font-size: 1.5em;
     margin-top: 1em;
@@ -776,9 +809,9 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 9.5em;
+    width: 10.5em;
     height: 100%;
-    font-size: 1rem;
+    font-size: .7rem;
     margin-top: 2em;
   }
   .btn:nth-child(2) {
@@ -909,6 +942,7 @@
     gap: 0.1em;
   }
 
+
   .contact-details {
     width: fit-content;
     display: grid;
@@ -960,17 +994,22 @@
     color: var(--hover-color);
   }
 
-  .my-image {
-    border: 4px solid #12f2ff;
-    width: 15.5em;
-    height: 18.5em;
-    border-radius: 50%;
+  .home-container {
+    padding: 3em 4.2em 0em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    gap: 1em;
   }
+  .resume-hire-box .btn {
+    width: 10em;
+    font-size: .8rem;
+    margin-top: 2em;
+    height: 2.5em;
+  }
+
   .my-image img {
-    overflow: hidden;
-    border-radius: 50%;
-    width: 15em;
-    height: 18em;
+    width: 12em;
   }
 
   .about-section {
