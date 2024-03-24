@@ -246,7 +246,7 @@ body.darkmode {
 }
 
 .mySmallDiscription {
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: var(--text-color);
   font-weight: 600;
   margin-top: 0.5em;
@@ -368,7 +368,7 @@ body.darkmode {
 }
 
 .btn:nth-child(2) {
-  width: 6em;
+  /* width: 6em; */
   background: var(--bg-color);
   color: var(--hover-color);
 }
@@ -497,7 +497,9 @@ body.darkmode {
   grid-template-columns: repeat(6, 1fr);
   justify-content: space-evenly;
   gap: 2em;
+  
 }
+
 .skills > div {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;

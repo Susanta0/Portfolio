@@ -685,7 +685,7 @@
     flex-wrap: wrap;
   }
   .home-container {
-    padding: 3em 4.2em 0em;
+    padding: 3em 0em 0em;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
@@ -773,23 +773,19 @@
     font-size: 0.7em;
   }
 }
+
 @media (min-width: 300px) and (max-width: 340px) {
   #home-container1 {
     display: flex;
     flex-wrap: wrap;
+    gap: 2em;
   }
   .home-container {
-    padding: 3em 4.2em 0em;
+    padding: 3em 0em 0em;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
     gap: 1em;
-  }
-  .resume-hire-box .btn {
-    width: 10em;
-    font-size: 0.8rem;
-    margin-top: 2em;
-    height: 2.5em;
   }
   .my-image img {
     width: 14em;
@@ -813,18 +809,16 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 10.5em;
+    width: 8.5em;
     height: 100%;
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin-top: 2em;
-  }
-  .btn:nth-child(2) {
-    width: 6em;
-    background: var(--bg-color);
-    color: var(--hover-color);
   }
   .sectionDiv {
     margin-top: 2em;
+  }
+  .about-section{
+    margin-top: 0em;
   }
   .projectMain {
     margin-top: 1em;
@@ -935,16 +929,7 @@
   }
   .resume {
     font-size: 1rem;
-    /* display: none; */
   }
-  .home-container {
-    padding: 3em 1em;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
-    gap: 0.1em;
-  }
-
   .contact-details {
     width: fit-content;
     display: grid;
@@ -975,21 +960,10 @@
   .resume-hire-box {
     display: flex;
     justify-content: space-between;
-    height: 2em;
+    height: fit-content;
     width: fit-content;
     gap: 1em;
   }
-
-  .resume-hire-box .btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 9.5em;
-    height: 100%;
-    font-size: 1.1rem;
-    margin-top: 2em;
-  }
-
   .btn:nth-child(2) {
     width: 6em;
     background: var(--bg-color);
@@ -997,14 +971,14 @@
   }
 
   .home-container {
-    padding: 3em 4.2em 0em;
+    padding: 3em 0em 0em;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
     gap: 1em;
   }
   .resume-hire-box .btn {
-    width: 10em;
+    width: 9em;
     font-size: 0.8rem;
     margin-top: 2em;
     height: 2.5em;
@@ -1088,6 +1062,7 @@
   }
   .project1 {
     height: 24em;
+    /* width: 10em; */
   }
   .project1-about {
     font-size: 1em;
