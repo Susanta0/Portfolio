@@ -493,11 +493,13 @@ body.darkmode {
 }
 .skills {
   margin-top: 2em;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(6, 1fr);
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2em;
-  
 }
 
 .skills > div {
@@ -510,6 +512,9 @@ body.darkmode {
   padding: 0.5em 0em;
   background-color: #fff;
   cursor: pointer;
+  /* extra add */
+  width: 164px;
+  height: 148px;
 }
 .skills div img {
   width: 6em;
@@ -545,9 +550,12 @@ body.darkmode {
 }
 .tools {
   margin-top: 2em;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(6, 1fr);
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2em;
 }
 .tools > div {
@@ -560,6 +568,9 @@ body.darkmode {
   padding: 0.5em 0em;
   background-color: #fff;
   cursor: pointer;
+  /* extra add */
+  width: 164px;
+  height: 148px;
 }
 .tools div img {
   width: 6em;
