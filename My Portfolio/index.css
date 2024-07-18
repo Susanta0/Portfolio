@@ -21,6 +21,11 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
 }
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -191,7 +196,7 @@ body.darkmode {
 
 /* HOME SECTION................................... */
 .home-container {
-  padding: 7em 10em 2em;
+  padding: 6em 10em 0em;
   display: flex;
   justify-content: space-evenly;
   gap: 5em;
@@ -395,7 +400,7 @@ body.darkmode {
 .about-section {
   /* background-color: var(--secon-bg-color); */
   /* background-color: #9a99ff; */
-  padding: 5em 10em 4em;
+  padding: 7em 10em 0em;
   margin-top: 2em;
 }
 .user-about-text {
@@ -472,7 +477,7 @@ body.darkmode {
 
 /* skills and tools......................... */
 .sectionDiv {
-  padding: 4em 12em;
+  padding: 8em 6em 0em;
 }
 .SkillTextContainer {
   display: flex;
@@ -587,7 +592,7 @@ body.darkmode {
 
 /* project section......................... */
 .projectContainer {
-  padding: 3em 0em;
+  padding: 7em 0em 0em;
   /* background-color: var(--secon-bg-color); */
   margin-top: 3em;
 }
