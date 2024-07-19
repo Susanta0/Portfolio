@@ -113,3 +113,16 @@ form.addEventListener('submit', e => {
 //     });
 //   });
 // });
+
+
+function openAndDownload() {
+  window.open('./assets/Susanta Samanta_Resume.pdf');
+  setTimeout(() => {
+    const link = document.createElement('a');
+    link.href = './assets/Susanta Samanta_Resume.pdf';
+    link.download = 'Susanta Samanta_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }, 1000);
+}
