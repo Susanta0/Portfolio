@@ -723,6 +723,8 @@ body.darkmode {
 /* contact and call */
 .messageMefast {
   padding: 3em 10em;
+  display: flex;
+  flex-direction: column;
   /* background-color: var(--secon-bg-color); */
 }
 .c_m {
@@ -753,6 +755,7 @@ body.darkmode {
   gap: 1.5em;
 }
 #contact-details2 > div {
+  
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -769,6 +772,7 @@ body.darkmode {
   margin-top: 3em;
 }
 .inputMessage {
+  margin-top: -4em;
   padding: 0.5em 1em;
   display: flex;
   flex-direction: column;
